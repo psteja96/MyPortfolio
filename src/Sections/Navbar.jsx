@@ -1,4 +1,5 @@
 import {useState} from "react";
+import {navLinks} from "../Constants/index.js";
 
 
 export const Navbar = () => {
@@ -11,11 +12,12 @@ export const Navbar = () => {
     const NavItems=()=>{
         return (
           <ul className="nav-ul">
-              {['Home','About','Projects','Contacts'].map((item,index)=>(
-                  <li  className="nav-li" key={index}><a href="/">{item}</a></li>
-                  )
-
-              )}
+              {navLinks
+                  .map(({id,href,name})=>(
+                   <li key={id} className="nav-li">
+                       <a className="nav_li_a" onClick={()=>{}} href={href}>{name}</a>
+                   </li>
+                       ))}
           </ul>
         )
     }
@@ -26,7 +28,7 @@ export const Navbar = () => {
                 <a href="/" className="text-neutral-400 font-bold text-xl hover:text-white transition-colors">
                     Teja
                 </a>
-                <button onClick={toggleMenu} className="text-neutral-400 hover:text-white focus:outline-none sm:flex hidden" aria-label="Toggle menu" >
+                <button onClick={toggleMenu} className="text-neutral-400 hover:text-white focus:outline-none sm:hidden flex " aria-label="Toggle menu" >
                     <img src={isOpen?"assets/close.svg":"assets/menu.svg"} alt="toggle" className="w-6 h-6" />
 
                 </button>
@@ -35,6 +37,11 @@ export const Navbar = () => {
                 </nav>
             </div>
         </div>
+            <div className={`nav-sidebar ${isOpen?'max-h-screen':'max-h-0'}`}>
+                <nav className="p-5">
+                    <NavItems />
+                </nav>
+            </div>
             </header>
     )
 }
