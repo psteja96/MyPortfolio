@@ -1,6 +1,7 @@
 import React from 'react';
 import {Navbar} from "./Sections/Navbar.jsx";
 import Hero from "./Sections/Hero.jsx";
+import About from "./Sections/About.jsx";
 
 const App = () => {
     return (
@@ -8,6 +9,7 @@ const App = () => {
             <div className="text-white">
                 <Navbar/>
                 <Hero/>
+                <About/>
             </div>
         </main>
     )
