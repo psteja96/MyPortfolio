@@ -1,6 +1,10 @@
 
 import {myProjects} from "../Constants/index.js";
-import {useState} from "react";
+import {Suspense, useState} from "react";
+import {Canvas} from "@react-three/fiber";
+import {Center, OrbitControls} from "@react-three/drei";
+import CanvasLoader from "../Components/CanvasLoader.jsx";
+import DemoComputer from "../Components/DemoComputer.jsx";
 
 const totalProjects = myProjects.length;
 const Projects = () => {
@@ -60,8 +64,19 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div>
-
+                <div className="border border-black-300 bg-black-200 rounded-lg h-96 md:w-full">
+                    <Canvas>
+                        <ambientLight intensity={3.3}/>
+                            <directionalLight position={[10, 10, 5]} intensity={0.5}/>
+                        <Center>
+                        <Suspense fallback={CanvasLoader}>
+                            <group scale={2 } position={[0,-3,0]} rotation={[0, -0.1, 0]}>
+                                <DemoComputer texture={currentProject.texture}/>
+                            </group>
+                        </Suspense>
+                        </Center>
+                        <OrbitControls maxPolarAngle={Math.PI /2} enableZoom={false}/>
+                    </Canvas>
                 </div>
             </div>
         </section>

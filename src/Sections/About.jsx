@@ -11,7 +11,7 @@ const About = () => {
     }
 
     return (
-        <section className="c-space my-20">
+        <section className="c-space my-20" id="about">
             <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
@@ -29,7 +29,7 @@ const About = () => {
 
                         <p className="grid-headtext">Tech Stack</p>
                         <p className="grid-subtext">I specialize in Javascript Frameworks with Focus on Angular and
-                            React</p>
+                            React and backend with Node.js and Java </p>
                     </div>
 
                 </div>
@@ -65,13 +65,13 @@ const About = () => {
 
                 <div className="xl:col-span-2 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="assets/grid3.png" alt="grid3" className="w-full sm:h-[276px] h-fit object-contain"/>
+                        <img src="/assets/grid3.png" alt="grid3" className="w-full sm:h-[276px] h-fit object-contain"/>
                         <div>
                             <p className="grid-headtext">
                                 Crafting Solutions Through Code
                             </p>
                             <p className="grid-subtext">Coding isn’t just my profession—it’s my way of solving problems,
-                                securing systems, and bringing ideas to life."</p>
+                                securing systems, and bringing ideas to life.</p>
                         </div>
                     </div>
 
