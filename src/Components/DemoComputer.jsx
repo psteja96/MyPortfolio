@@ -1,5 +1,5 @@
 
-import {useGLTF, useAnimations, useVideoTexture} from '@react-three/drei'
+import {useGLTF, useVideoTexture} from '@react-three/drei'
 import {useEffect, useRef} from "react";
 import {useGSAP} from "@gsap/react";
 import gsap  from "gsap";
