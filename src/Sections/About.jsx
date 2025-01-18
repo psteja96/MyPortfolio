@@ -70,8 +70,8 @@ const About = () => {
                             <p className="grid-headtext">
                                 Crafting Solutions Through Code
                             </p>
-                            <p className="grid-subtext">Coding isn’t just my profession—it’s my way of solving problems,
-                                securing systems, and bringing ideas to life.</p>
+                            <p className="grid-subtext">As a Full-Stack developer with degrees in both Computer Science and Cybersecurity, I blend software development with security-first thinking. My work focuses on translating complex design requirements into clean,
+                                maintainable code using Angular and React, always with an emphasis on the end-user experience.</p>
                         </div>
                     </div>
 

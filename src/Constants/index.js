@@ -62,7 +62,7 @@ export const myProjects = [
         desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
         subdesc:
             'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        href: 'https://github.com/psteja96/Social-Blog-React--Node-Microservice',
         texture: '/textures/project/project1.mp4',
         logo: '/assets/project-logo1.png',
         logoStyle: {
@@ -90,7 +90,7 @@ export const myProjects = [
             {
                 id: 4,
                 name: 'Framer Motion',
-                path: '/assets/framer.png',
+                path: '/assets/jsIconGreen.svg',
             },
         ],
     },
@@ -99,7 +99,7 @@ export const myProjects = [
         desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
         subdesc:
             'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+        href: 'https://github.com/psteja96',
         texture: '/textures/project/project2.mp4',
         logo: '/assets/project-logo2.png',
         logoStyle: {
@@ -127,7 +127,7 @@ export const myProjects = [
             {
                 id: 4,
                 name: 'Framer Motion',
-                path: '/assets/framer.png',
+                path: '/assets/jsIconGreen.svg',
             },
         ],
     },
@@ -136,7 +136,7 @@ export const myProjects = [
         desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
         subdesc:
             'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-        href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        href: 'https://github.com/psteja96',
         texture: '/textures/project/project3.mp4',
         logo: '/assets/project-logo3.png',
         logoStyle: {
@@ -166,16 +166,16 @@ export const myProjects = [
             {
                 id: 4,
                 name: 'Framer Motion',
-                path: '/assets/framer.png',
+                path: '/assets/jsIconGreen.svg',
             },
         ],
     },
     {
-        title: 'Horizon - Online Banking Platform',
+        title: 'ProShop - E-commerence Shop',
         desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
         subdesc:
-            'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-        href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+            'Built with React,Node.JS, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+        href: 'https://github.com/psteja96',
         texture: '/textures/project/project4.mp4',
         logo: '/assets/project-logo4.png',
         logoStyle: {
@@ -203,7 +203,7 @@ export const myProjects = [
             {
                 id: 4,
                 name: 'Framer Motion',
-                path: '/assets/framer.png',
+                path: '/assets/jsIconGreen.svg',
             },
         ],
     },
@@ -212,7 +212,7 @@ export const myProjects = [
         desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
         subdesc:
             'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-        href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+        href: 'https://github.com/psteja96',
         texture: '/textures/project/project5.mp4',
         logo: '/assets/project-logo5.png',
         logoStyle: {
@@ -240,7 +240,7 @@ export const myProjects = [
             {
                 id: 4,
                 name: 'Framer Motion',
-                path: '/assets/framer.png',
+                path: '/assets/jsIconGreen.svg',
             },
         ],
     },
@@ -260,26 +260,26 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'Framer',
-        pos: 'Lead Web Developer',
-        duration: '2022 - Present',
+        name: 'Gravitad',
+        pos: 'MERN Consultant',
+        duration: '2025-Present',
         title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
         icon: '/assets/framer.svg',
         animation: 'victory',
     },
     {
         id: 2,
-        name: 'Figma',
-        pos: 'Web Developer',
-        duration: '2020 - 2022',
+        name: 'Wipro',
+        pos: 'Project Engineer',
+        duration: '2019 - 2022',
         title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
         icon: '/assets/figma.svg',
         animation: 'clapping',
     },
     {
         id: 3,
-        name: 'Notion',
-        pos: 'Junior Web Developer',
+        name: 'Wipro',
+        pos: 'Software Intern',
         duration: '2019 - 2020',
         title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
         icon: '/assets/notion.svg',

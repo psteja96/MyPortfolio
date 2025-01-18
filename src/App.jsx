@@ -4,6 +4,8 @@ import About from "./Sections/About.jsx";
 import Projects from "./Sections/Projects.jsx";
 import Clients from "./Sections/Clients.jsx";
 import Contact from "./Sections/Contact.jsx";
+import Footer from "./Sections/Footer.jsx";
+import Experience from "./Sections/Experience.jsx";
 
 const App = () => {
     return (
@@ -14,7 +16,9 @@ const App = () => {
                 <About/>
                 <Projects/>
                 <Clients/>
+                <Experience/>
                 <Contact/>
+                <Footer/>
             </div>
         </main>
     )
