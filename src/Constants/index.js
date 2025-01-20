@@ -272,7 +272,7 @@ export const workExperiences = [
         name: 'Wipro',
         pos: 'Project Engineer',
         duration: '2019 - 2022',
-        title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+        title: "Angular Full Stack Developer.",
         icon: '/assets/Wipro.png',
         animation: 'clapping',
     },
