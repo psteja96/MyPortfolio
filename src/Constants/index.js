@@ -281,7 +281,7 @@ export const workExperiences = [
         name: 'Wipro',
         pos: 'Software Intern',
         duration: '2018 - 2019',
-        title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+        title: "Trained under various web-technologies like Angular and React. Resolved medium priority Jira tickets",
         icon: '/assets/Wipro.png',
         animation: 'salute',
     },
