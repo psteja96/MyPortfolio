@@ -45,14 +45,15 @@ const handleSubmit=async (e)=>{
         setForm({...form, [name]:value});
     };
     return (
-        <section className="c-space my-20">
+        <section className="c-space my-20" id="contact">
             <div className="relative min-h-screen flex flex-col items-center justify-center">
                 <img src="/assets/terminal.png" alt="terminal" className="absolute inset-0 min-h-screen" />
                 <div className="contact-container">
                 <h3>Get In Touch</h3>
                  <p className="text-lg text-white-600">
-                     Whether you're building a project or improve existing......
-                 </p>
+                     Whether you need to create a dynamic new website, enhance your current platform,
+                     or bring an innovative project to life, I’m here to help turn your vision into reality.
+                     Let’s collaborate to build something exceptional! </p>
                     <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-3">
                         <label className="space-y-3">
                             <span className="field-label">Full Name</span>
@@ -85,7 +86,7 @@ const handleSubmit=async (e)=>{
                                 onChange={handleChange}
                                 required
                                 className="field-input"
-                                placeholder="Hi,I'm interest in..."/>
+                                placeholder="Hi,I'have an interesting oppurtunity..."/>
                         </label>
                         <button className="field-btn" disabled={loading} type="submit">
                             {loading?'Sending...':'Send Message'}
