@@ -1,6 +1,6 @@
 {
   "name": "untitled",
-  "homepage": "https://psteja96.github.io/MyPortfolio/",
+  "homepage": "https://psteja96.github.io/MyPortfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,6 +15,7 @@
     "@gsap/react": "^2.1.1",
     "@react-three/drei": "^9.120.5",
     "@react-three/fiber": "^8.17.10",
+    "gh-pages": "^6.3.0",
     "gsap": "^3.12.5",
     "leva": "^0.9.35",
     "maath": "^0.10.8",
