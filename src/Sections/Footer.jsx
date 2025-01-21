@@ -8,10 +8,10 @@ const Footer = () => {
             </div>
             <div className="flex gap-3">
                 <div className="social-icon">
-                    <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2"/>
+                    <img src="/src/assets/github.svg" alt="github" className="w-1/2 h-1/2"/>
                 </div>
                 <div className="social-icon">
-                    <img src="/assets/linkedIn.png" alt="linkedIn" className="w-1/2 h-1/2"/>
+                    <img src="/src/assets/linkedIn.png" alt="linkedIn" className="w-1/2 h-1/2"/>
                 </div>
             </div>
             <p>©2025 Teja.All rights reserved.</p>
