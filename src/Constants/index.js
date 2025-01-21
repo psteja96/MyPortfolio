@@ -24,226 +24,109 @@ export const navLinks = [
 export const clientReviews = [
     {
         id: 1,
-        name: 'Emily Johnson',
-        position: 'Marketing Director at GreenLeaf',
-        img: 'src/assets/review1.png',
+        name: 'Cypress',
+        position: 'E2E Automation Testing',
+        img: '/dist/src/assets/review1.png',
         review:
-            'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+            'Proficient in end-to-end testing using Cypress, a fast, reliable, and developer-friendly testing framework that enables rapid test creation and execution.Leveraged Cypress to write robust and maintainable tests for Angular applications, ensuring high-quality and bug-free user experiences.'
     },
     {
         id: 2,
-        name: 'Mark Rogers',
-        position: 'Founder of TechGear Shop',
-        img: 'src/assets/review2.png',
-        review:
-            'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+        name: 'Docker',
+        position: 'Containerization',
+        img: '/dist/src/assets/review2.png',
+        review:'Experienced in containerizing Angular applications using Docker, ensuring consistent and reproducible deployments across various environments.Leveraged Docker to streamline development workflows, improve resource utilization, and facilitate efficient scaling of Angular applications.'
     },
     {
         id: 3,
-        name: 'John Dohsas',
-        position: 'Project Manager at UrbanTech ',
-        img: 'src/assets/review3.png',
-        review:
-            'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+        name: 'Amazon Web Services',
+        position: 'Cloud Platform',
+        img: '/dist/src/assets/review3.png',
+        review:'Familiar with AWS services relevant to Angular development, including EBS, RDS, and CloudFront, for deploying and hosting scalable and high-performance web applications.Utilized AWS services to implement cloud-based solutions for Angular projects, enhancing application performance, reliability, and scalability.'
     },
     {
         id: 4,
-        name: 'Ether Smith',
-        position: 'CEO of BrightStar Enterprises',
-        img: 'src/assets/review4.png',
-        review:
-            'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+        name: 'Agile DevOps',
+        position: 'Software Development LifeCycle',
+        img: '/dist/src/assets/review4.svg',
+        review:'Advocate for Agile and DevOps principles, fostering collaboration between development and operations teams to streamline the software delivery lifecycle for Angular projects.Implemented continuous integration and continuous delivery (CI/CD) pipelines using tools like Jenkins CI/CD to automate builds, testing, and deployments of Angular applications.'
     },
 ];
 
 export const myProjects = [
     {
-        title: 'Podcastr - AI Podcast Platform',
-        desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-        subdesc:
-            'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
+        title: 'Social Blog - Microservice Architecture',
+        desc: 'MERN stack application built with Microservice Architecture',
+        subdesc:'Developed a social media blog using React and Node.js, implementing event-driven microservices that ensure system independence and fault tolerance. Utilized React Hooks and Node.js to manage state and data persistence, and deployed on AWS.',
         href: 'https://github.com/psteja96/Social-Blog-React--Node-Microservice',
-        texture: 'src/textures/project/project1.mp4',
-        logo: 'src/assets/project-logo1.png',
+        texture: '/dist/src/textures/project/project1.mp4',
+        logo: '/dist/src/assets/project-logo1.png',
         logoStyle: {
             backgroundColor: '#2A1816',
             border: '0.2px solid #36201D',
             boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
-        spotlight: 'src/assets/spotlight1.png',
+        spotlight: '/dist/src/assets/spotlight1.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: 'src/assets/react.svg',
+                path: '/dist/src/assets/react.svg',
             },
             {
                 id: 2,
                 name: 'TailwindCSS',
-                path: 'src/assets/tailwindcss.png',
+                path: '/dist/src/assets/tailwindcss.png',
             },
             {
                 id: 3,
                 name: 'TypeScript',
-                path: 'src/assets/typescript.png',
+                path: '/dist/src/assets/typescript.png',
             },
             {
                 id: 4,
                 name: 'Framer Motion',
-                path: 'src/assets/jsIconGreen.svg',
+                path: '/dist/src/assets/jsIconGreen.svg',
             },
         ],
     },
     {
-        title: 'LiveDoc - Real-Time Google Docs Clone',
-        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-        subdesc:
-            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+        title: 'ProShop - E-commerce Shop',
+        desc: 'MERN Stack Application',
+        subdesc:'Built a full-featured e-commerce platform from scratch using the MERN (MongoDB, Express, React, Node.js) stack with Redux Toolkit for state management. Implemented features like shopping cart, product reviews, user authentication (JSON Web Token), and admin dashboards for product, user, and order management',
         href: 'https://github.com/psteja96',
-        texture: 'src/textures/project/project2.mp4',
-        logo: 'src/assets/project-logo2.png',
-        logoStyle: {
-            backgroundColor: '#13202F',
-            border: '0.2px solid #17293E',
-            boxShadow: '0px 0px 60px 0px #2F6DB54D',
-        },
-        spotlight: 'src/assets/spotlight2.png',
-        tags: [
-            {
-                id: 1,
-                name: 'React.js',
-                path: 'src/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'src/assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: 'src/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: 'src/assets/jsIconGreen.svg',
-            },
-        ],
-    },
-    {
-        title: 'CarePulse - Health Management System',
-        desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-        subdesc:
-            'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-        href: 'https://github.com/psteja96',
-        texture: 'src/textures/project/project3.mp4',
-        logo: 'src/assets/project-logo3.png',
-        logoStyle: {
-            backgroundColor: '#60f5a1',
-            background:
-                'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-            border: '0.2px solid rgba(208, 213, 221, 1)',
-            boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-        },
-        spotlight: 'src/assets/spotlight3.png',
-        tags: [
-            {
-                id: 1,
-                name: 'React.js',
-                path: 'src/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'src/assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: 'src/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: 'src/assets/jsIconGreen.svg',
-            },
-        ],
-    },
-    {
-        title: 'ProShop - E-commerence Shop',
-        desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-        subdesc:
-            'Built with React,Node.JS, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-        href: 'https://github.com/psteja96',
-        texture: 'src/textures/project/project4.mp4',
-        logo: 'src/assets/project-logo4.png',
+        texture: '/dist/src/textures/project/project4.mp4',
+        logo: '/dist/src/assets/project-logo4.png',
         logoStyle: {
             backgroundColor: '#0E1F38',
             border: '0.2px solid #0E2D58',
             boxShadow: '0px 0px 60px 0px #2F67B64D',
         },
-        spotlight: 'src/assets/spotlight4.png',
+        spotlight: '/dist/src/assets/spotlight4.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: 'src/assets/react.svg',
+                path: '/dist/src/assets/react.svg',
             },
             {
                 id: 2,
                 name: 'TailwindCSS',
-                path: 'src/assets/tailwindcss.png',
+                path: '/dist/src/assets/tailwindcss.png',
             },
             {
                 id: 3,
                 name: 'TypeScript',
-                path: 'src/assets/typescript.png',
+                path: '/dist/src/assets/typescript.png',
             },
             {
                 id: 4,
                 name: 'Framer Motion',
-                path: 'src/assets/jsIconGreen.svg',
+                path: '/dist/src/assets/jsIconGreen.svg',
             },
         ],
     },
-    {
-        title: 'Imaginify - AI Photo Manipulation App',
-        desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-        subdesc:
-            'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-        href: 'https://github.com/psteja96',
-        texture: 'src/textures/project/project5.mp4',
-        logo: 'src/assets/project-logo5.png',
-        logoStyle: {
-            backgroundColor: '#1C1A43',
-            border: '0.2px solid #252262',
-            boxShadow: '0px 0px 60px 0px #635BFF4D',
-        },
-        spotlight: 'src/assets/spotlight5.png',
-        tags: [
-            {
-                id: 1,
-                name: 'React.js',
-                path: 'src/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'src/assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: 'src/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: 'src/assets/jsIconGreen.svg',
-            },
-        ],
-    },
+
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -260,11 +143,11 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'Gravitad',
+        name: 'Gravitad(Freelance)',
         pos: 'MERN Consultant',
         duration: '2025-Present',
-        title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-        icon: 'src/assets/Gravitad.png',
+        title: "Reviewing Technical Requirements and providing solution architecture to the development team",
+        icon: '/dist/src/assets/Gravitad.png',
         animation: 'victory',
     },
     {
@@ -272,8 +155,8 @@ export const workExperiences = [
         name: 'Wipro',
         pos: 'Project Engineer',
         duration: '2019 - 2022',
-        title: "Angular Full Stack Developer.",
-        icon: 'src/assets/Wipro.png',
+        title: "Worked as Angular Full Stack Developer as well functioned as SME for projects under Automobile domain.",
+        icon: '/dist/src/assets/Wipro.png',
         animation: 'clapping',
     },
     {
@@ -282,7 +165,7 @@ export const workExperiences = [
         pos: 'Software Intern',
         duration: '2018 - 2019',
         title: "Trained under various web-technologies like Angular and React. Resolved medium priority Jira tickets",
-        icon: 'src/assets/Wipro.png',
+        icon: '/dist/src/assets/Wipro.png',
         animation: 'salute',
     },
 ];
