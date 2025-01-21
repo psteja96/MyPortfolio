@@ -29,7 +29,7 @@ export const Navbar = () => {
                     Teja
                 </a>
                 <button onClick={toggleMenu} className="text-neutral-400 hover:text-white focus:outline-none sm:hidden flex " aria-label="Toggle menu" >
-                    <img src={isOpen?import.meta.env.BASE_URL+"/src/assets/close.svg":import.meta.env.BASE_URL+"/src/assets/menu.svg"} alt="toggle" className="w-6 h-6" />
+                    <img src={isOpen?import.meta.env.BASE_URL+"/dist/src/assets/close.svg":import.meta.env.BASE_URL+"/dist/src/assets/menu.svg"} alt="toggle" className="w-6 h-6" />
 
                 </button>
                 <nav className="sm:flex hidden">
