@@ -99,6 +99,6 @@ const Developer = ({ animationName = 'idle', ...props }) => {
     );
 };
 
-useGLTF.preload(import.meta.env.BASE_URL+'src/models/MyAvatar.glb');
+useGLTF.preload(import.meta.env.BASE_URL+'/src/models/MyAvatar.glb');
 
 export default Developer;

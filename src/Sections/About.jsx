@@ -84,7 +84,7 @@ const About = () => {
                                 Contact Me
                             </p>
                             <div className="copy-container" onClick={handleCopy}>
-                                <img src={hasCopied?'src/assets/tick.svg':'src/assets/copy.svg'} alt="copy icon"/>
+                                <img src={hasCopied?import.meta.env.BASE_URL+'/src/assets/tick.svg':import.meta.env.BASE_URL+'/src/assets/copy.svg'} alt="copy icon"/>
                                 <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">psteja96@gmail.com</p>
                             </div>
                         </div>
