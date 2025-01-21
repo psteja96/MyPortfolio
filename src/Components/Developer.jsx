@@ -6,14 +6,14 @@ import { SkeletonUtils } from 'three-stdlib';
 const Developer = ({ animationName = 'idle', ...props }) => {
     const group = useRef();
 
-    const { scene } = useGLTF('/src/models/MyAvatar.glb');
+    const { scene } = useGLTF(import.meta.env.BASE_URL+'/src/models/MyAvatar.glb');
     const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene]);
     const { nodes, materials } = useGraph(clone);
 
-    const { animations: idleAnimation } = useFBX('/src/models/animations/idle.fbx');
-    const { animations: saluteAnimation } = useFBX('/src/models/animations/salute.fbx');
-    const { animations: clappingAnimation } = useFBX('/src/models/animations/clapping.fbx');
-    const { animations: victoryAnimation } = useFBX('/src/models/animations/victory.fbx');
+    const { animations: idleAnimation } = useFBX(import.meta.env.BASE_URL+'/src/models/animations/idle.fbx');
+    const { animations: saluteAnimation } = useFBX(import.meta.env.BASE_URL+'/src/models/animations/salute.fbx');
+    const { animations: clappingAnimation } = useFBX(import.meta.env.BASE_URL+'/src/models/animations/clapping.fbx');
+    const { animations: victoryAnimation } = useFBX(import.meta.env.BASE_URL+'/src/models/animations/victory.fbx');
 
     idleAnimation[0].name = 'idle';
     saluteAnimation[0].name = 'salute';
@@ -99,6 +99,6 @@ const Developer = ({ animationName = 'idle', ...props }) => {
     );
 };
 
-useGLTF.preload('src/models/MyAvatar.glb');
+useGLTF.preload(import.meta.env.BASE_URL+'src/models/MyAvatar.glb');
 
 export default Developer;

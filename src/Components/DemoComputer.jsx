@@ -6,9 +6,9 @@ import gsap  from "gsap";
 
 const DemoComputer = (props) => {
     const group = useRef();
-    const { nodes, materials } = useGLTF('src/models/computer.glb')
+    const { nodes, materials } = useGLTF(import.meta.env.BASE_URL+'src/models/computer.glb')
 
-    const txt=useVideoTexture(props.texture?props.texture:"src/textures/project/project1.mp4");
+    const txt=useVideoTexture(props.texture?props.texture:import.meta.env.BASE_URL+"src/textures/project/project1.mp4");
    useGSAP(()=>{
        gsap.from(group.current.rotation, {
            y:Math.PI/2,
@@ -1010,7 +1010,7 @@ const DemoComputer = (props) => {
     )
 }
 
-useGLTF.preload('src/models/computer.glb');
+useGLTF.preload(import.meta.env.BASE_URL+'src/models/computer.glb');
 export default DemoComputer;
 
 
