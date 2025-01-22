@@ -47,7 +47,7 @@ const handleSubmit=async (e)=>{
     return (
         <section className="c-space my-20" id="contact">
             <div className="relative min-h-screen flex flex-col items-center justify-center">
-                <img src="/dist/src/assets/terminal.png" alt="terminal" className="absolute inset-0 min-h-screen" />
+                <img src={import.meta.env.BASE_URL+"/dist/src/assets/terminal.png"} alt="terminal" className="absolute inset-0 min-h-screen" />
                 <div className="contact-container">
                 <h3>Get In Touch</h3>
                  <p className="text-lg text-white-600">
@@ -90,7 +90,7 @@ const handleSubmit=async (e)=>{
                         </label>
                         <button className="field-btn" disabled={loading} type="submit">
                             {loading?'Sending...':'Send Message'}
-                            <img src="/dist/src/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
+                            <img src={import.meta.env.BASE_URL+"/dist/src/assets/arrow-up.png"} alt="arrow-up" className="field-btn_arrow" />
                         </button>
                     </form>
                 </div>
